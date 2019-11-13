@@ -15,6 +15,15 @@ With that said, use the following instructions to use this tool:
 Once you've created a countdown, you will need to follow these next steps to push it live:
 1) Upload the entire `cd_starter` folder (excluding the `_01_Countdown_Base` if you want) to a folder in your your live server.
 2) You can now use the URL of the `index.php` as the `src` attribute for the image in your email where you want the countdown to be. If you are using media queries, you can append `?mb=y` to the `src` of that image.
+E.g.:
+```
+<img src="https://www.mycoolsite.com/countdowns/YOUR_COUNTDOWN/" width="700" alt="Ends in a few days on January 5th!">
+
+-- or --
+
+<img src="https://www.mycoolsite.com/countdowns/YOUR_COUNTDOWN/?mb=y" width="700" alt="Ends in a few days on January 5th!">
+```
+3) To create a new countdown, you can simply follow steps 3-5 above, and then you'll only need to upload the newly named countdown to the `countdowns` folder on your live server.
 
 # Setting up a cronjob
 Generating a countdown can take quite a bit of resources, and having hundreds or thousands of people try and access a countdown image at once can quickly bring down your server.
