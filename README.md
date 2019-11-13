@@ -49,3 +49,7 @@ If you don't have access to Adobe Illustrator, you can use the following dimensi
 
 - Desktop countdown background image (used as the background for the desktop version) - `dt_bg.png` (700px x 153px)
 - Mobile countdown background image (used as the background for the mobile version) - `mb_bg.png` (400px x 394px)
+
+
+# Credits
+This project uses the `AnimGif` class from lunakid (https://github.com/lunakid/AnimGif).
